@@ -1,0 +1,29 @@
+{
+  "name": "team-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoffeeEyes28/Team-DataBase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoffeeEyes28/Team-DataBase/issues"
+  },
+  "homepage": "https://github.com/CoffeeEyes28/Team-DataBase#readme",
+  "dependencies": {
+    "inquirer": "^7.3.2",
+    "jest": "^28.1.3"
+  }
+}
