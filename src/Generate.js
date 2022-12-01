@@ -11,8 +11,7 @@ function generate(team) {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
             
-            
-                <link rel="stylesheet" href="./style.css" />
+            <link rel="stylesheet" href="./style.css" />
             <title>Team Data Base</title>
         </head>
         <header class="display text-center p-4 bg-danger text-light">
@@ -21,15 +20,15 @@ function generate(team) {
         <br>
         <body class = "d-flex flex-column bg-secondary">
             <main>
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    
-        
-                    <!-- Team Card Section -->
-                    ${generateTeam(team)}
-        
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        
+            
+                        <!-- Team Card Section -->
+                        ${generateTeam(team)}
+            
+                    </div>
                 </div>
-            </div>
             </main>
         </body>
     </html>`;
